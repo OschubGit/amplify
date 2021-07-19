@@ -1,0 +1,10 @@
+type Tareas @model @auth(rules: [{allow: private}]) {
+  id: ID!
+  tareas: String
+}
+
+type Note @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  note: String
+}
+ 

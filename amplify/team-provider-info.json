@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-awstaskapp-dev-192647-authRole",
+      "UnauthRoleArn": "arn:aws:iam::179935562566:role/amplify-awstaskapp-dev-192647-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::179935562566:role/amplify-awstaskapp-dev-192647-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-awstaskapp-dev-192647-deployment",
+      "UnauthRoleName": "amplify-awstaskapp-dev-192647-unauthRole",
+      "StackName": "amplify-awstaskapp-dev-192647",
+      "StackId": "arn:aws:cloudformation:eu-west-2:179935562566:stack/amplify-awstaskapp-dev-192647/4dc3e000-e7ed-11eb-9e8b-064f1de31c1e",
+      "AmplifyAppId": "d2p1451p0qn6g9"
+    },
+    "categories": {
+      "auth": {
+        "awstaskapp39703e5e": {}
+      }
+    }
+  }
+}
