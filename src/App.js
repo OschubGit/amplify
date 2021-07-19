@@ -1,8 +1,11 @@
 import React, {useState, useEffect} from "react";
 import './App.css';
+import Amplify from 'aws-amplify';
 import { withAuthenticator, AmplifyAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
 import { DataStore } from '@aws-amplify/datastore';
 import { Tareas } from './models';
+import awsExports from './aws-exports';
+Amplify.configure(awsExports);
 
 function App() {
 
